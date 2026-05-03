@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Noto Serif", ui-serif, Georgia, serif;
+
+  --color-brand-primary: #041627;
+  --color-brand-secondary: #715a3f;
+  --color-surface: #fbf9f5;
+  --color-surface-low: #f5f3ef;
+  --color-surface-high: #eae8e4;
+  --color-surface-highest: #e4e2de;
+  --color-on-surface: #1b1c1a;
+  --color-on-surface-variant: #44474c;
+  --color-outline: #74777d;
+  --color-outline-variant: #c4c6cd;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-semibold tracking-tight;
+  }
+
+  .font-label-caps {
+    @apply font-sans font-semibold text-[12px] tracking-[0.05em] uppercase leading-none;
+  }
+}
+
+@layer utilities {
+  .whisper-shadow {
+    box-shadow: 0 20px 40px rgba(4, 22, 39, 0.04);
+  }
+  
+  .section-padding {
+    @apply py-24 md:py-32;
+  }
+}
