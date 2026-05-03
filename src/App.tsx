@@ -263,40 +263,41 @@ const AboutView = () => (
     className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-20 items-center"
   >
     <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
-      <img 
-        src="https://scontent.fcok10-2.fna.fbcdn.net/v/t39.30808-6/248598296_100433859112169_6277970944303742882_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=lr-Vaze-1cQQ7kNvwFP7Njl&_nc_oc=AdpTIEIPagTRSf-D00bXro5XDKO4p5Dz_eWfEUrKrJ7o_AoYx0rUN6pO2DfV2fw7YSCz0bOpGyrcuj7oVMrLtmKB&_nc_zt=23&_nc_ht=scontent.fcok10-2.fna&_nc_gid=iL03fAVLTlGJge10djimeQ&_nc_ss=7b289&oh=00_Af45h1Q7p4H-BbFIHFa2Bf-UiQ_zWfG0Men44cq3aaQFUg&oe=69FD5FDC" 
-        alt="Antony Neval" 
-        className="w-full h-full object-cover grayscale contrast-125"
-        referrerPolicy="no-referrer"
-      />
-    <div className="space-y-8">
-      <span className="font-label-caps text-brand-secondary">My Story</span>
-      <h1 className="text-6xl text-brand-primary">Thoughtful Design from Kochi.</h1>
-      <div className="space-y-6 text-lg text-on-surface-variant leading-relaxed">
-        <p>I'm Antony, a web designer and technical advisor dedicated to creating digital experiences that feel human and grounded.</p>
-        <p>Starting in the vibrant streets of Ernakulam, I saw how digital platforms could empower local businesses. I wanted to be the bridge that made professional, high-standard websites accessible to everyone.</p>
-        <p>My work is a blend of visual clarity and technical robustness. I don't just build sites that look "cool"—I build them to solve problems and last for years.</p>
+        <img 
+          src="https://scontent.fcok10-2.fna.fbcdn.net/v/t39.30808-6/248598296_100433859112169_6277970944303742882_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=lr-Vaze-1cQQ7kNvwFP7Njl&_nc_oc=AdpTIEIPagTRSf-D00bXro5XDKO4p5Dz_eWfEUrKrJ7o_AoYx0rUN6pO2DfV2fw7YSCz0bOpGyrcuj7oVMrLtmKB&_nc_zt=23&_nc_ht=scontent.fcok10-2.fna&_nc_gid=iL03fAVLTlGJge10djimeQ&_nc_ss=7b289&oh=00_Af45h1Q7p4H-BbFIHFa2Bf-UiQ_zWfG0Men44cq3aaQFUg&oe=69FD5FDC" 
+          alt="Antony Neval" 
+          className="w-full h-full object-cover grayscale contrast-125"
+          referrerPolicy="no-referrer"
+        />
       </div>
-      <div className="grid grid-cols-2 gap-8 pt-8 border-t border-outline-variant">
-        <div>
-          <h4 className="font-serif text-brand-primary text-xl mb-2">Expertise</h4>
-          <ul className="text-on-surface-variant space-y-1">
-            <li>SEO Strategy</li>
-            <li>React Architecture</li>
-            <li>UI/UX Design</li>
-          </ul>
+      <div className="space-y-8">
+        <span className="font-label-caps text-brand-secondary">My Story</span>
+        <h1 className="text-6xl text-brand-primary">Thoughtful Design from Kochi.</h1>
+        <div className="space-y-6 text-lg text-on-surface-variant leading-relaxed">
+          <p>I'm Antony, a web designer and technical advisor dedicated to creating digital experiences that feel human and grounded.</p>
+          <p>Starting in the vibrant streets of Ernakulam, I saw how digital platforms could empower local businesses. I wanted to be the bridge that made professional, high-standard websites accessible to everyone.</p>
+          <p>My work is a blend of visual clarity and technical robustness. I don't just build sites that look "cool"—I build them to solve problems and last for years.</p>
         </div>
-        <div>
-          <h4 className="font-serif text-brand-primary text-xl mb-2">Philosophy</h4>
-          <ul className="text-on-surface-variant space-y-1" >
-            <li>Human-First</li>
-            <li>Structural Clarity</li>
-            <li>Long-Term Purity</li>
-          </ul>
+        <div className="grid grid-cols-2 gap-8 pt-8 border-t border-outline-variant">
+          <div>
+            <h4 className="font-serif text-brand-primary text-xl mb-2">Expertise</h4>
+            <ul className="text-on-surface-variant space-y-1">
+              <li>SEO Strategy</li>
+              <li>React Architecture</li>
+              <li>UI/UX Design</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-serif text-brand-primary text-xl mb-2">Philosophy</h4>
+            <ul className="text-on-surface-variant space-y-1" >
+              <li>Human-First</li>
+              <li>Structural Clarity</li>
+              <li>Long-Term Purity</li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </motion.div>
+    </motion.div>
 );
 
 const ContactView = () => (
@@ -312,7 +313,7 @@ const ContactView = () => (
         <h1 className="text-6xl text-brand-primary underline decoration-brand-secondary/20 hover:decoration-brand-secondary transition-all">Let's talk about your project.</h1>
       </div>
       <div className="space-y-8">
-        <a href=mailto:antonynevalkt@gmail.com" className="flex items-center gap-6 group">
+        <a href="mailto:antonynevalkt@gmail.com" className="flex items-center gap-6 group">
           <div className="w-14 h-14 rounded-full border border-outline-variant flex items-center justify-center group-hover:bg-brand-primary group-hover:border-brand-primary transition-all">
             <Mail className="w-6 h-6 text-on-surface group-hover:text-white" />
           </div>
