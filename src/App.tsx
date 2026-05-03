@@ -264,16 +264,11 @@ const AboutView = () => (
   >
     <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
       <img 
-        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800" 
+        src="https://scontent.fcok10-2.fna.fbcdn.net/v/t39.30808-6/248598296_100433859112169_6277970944303742882_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=lr-Vaze-1cQQ7kNvwFP7Njl&_nc_oc=AdpTIEIPagTRSf-D00bXro5XDKO4p5Dz_eWfEUrKrJ7o_AoYx0rUN6pO2DfV2fw7YSCz0bOpGyrcuj7oVMrLtmKB&_nc_zt=23&_nc_ht=scontent.fcok10-2.fna&_nc_gid=iL03fAVLTlGJge10djimeQ&_nc_ss=7b289&oh=00_Af45h1Q7p4H-BbFIHFa2Bf-UiQ_zWfG0Men44cq3aaQFUg&oe=69FD5FDC" 
         alt="Antony Neval" 
         className="w-full h-full object-cover grayscale contrast-125"
         referrerPolicy="no-referrer"
       />
-      <div className="absolute inset-0 bg-brand-primary/10 mix-blend-multiply" />
-      <div className="absolute bottom-6 left-6 p-6 bg-brand-secondary/90 backdrop-blur-md text-white rounded-xl">
-        <span className="font-label-caps">Established Kochi, 2018</span>
-      </div>
-    </div>
     <div className="space-y-8">
       <span className="font-label-caps text-brand-secondary">My Story</span>
       <h1 className="text-6xl text-brand-primary">Thoughtful Design from Kochi.</h1>
@@ -317,7 +312,7 @@ const ContactView = () => (
         <h1 className="text-6xl text-brand-primary underline decoration-brand-secondary/20 hover:decoration-brand-secondary transition-all">Let's talk about your project.</h1>
       </div>
       <div className="space-y-8">
-        <a href="mailto:hello@neval.tech" className="flex items-center gap-6 group">
+        <a href=mailto:antonynevalkt@gmail.com" className="flex items-center gap-6 group">
           <div className="w-14 h-14 rounded-full border border-outline-variant flex items-center justify-center group-hover:bg-brand-primary group-hover:border-brand-primary transition-all">
             <Mail className="w-6 h-6 text-on-surface group-hover:text-white" />
           </div>
@@ -331,8 +326,8 @@ const ContactView = () => (
             <Phone className="w-6 h-6 text-on-surface" />
           </div>
           <div>
-            <span className="font-label-caps text-outline">Call Center</span>
-            <p className="text-2xl text-brand-primary">Remote, Worldwide</p>
+            <span className="font-label-caps text-outline">Call</span>
+            <p className="text-2xl text-brand-primary">+91 9746075835</p>
           </div>
         </div>
       </div>
@@ -342,11 +337,11 @@ const ContactView = () => (
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="space-y-2">
           <label className="font-label-caps text-on-surface-variant">Your Name</label>
-          <input type="text" className="w-full bg-transparent border-b border-outline-variant py-2 focus:border-brand-primary outline-none" placeholder="John Doe" />
+          <input type="text" className="w-full bg-transparent border-b border-outline-variant py-2 focus:border-brand-primary outline-none" placeholder="Name" />
         </div>
         <div className="space-y-2">
           <label className="font-label-caps text-on-surface-variant">Email</label>
-          <input type="email" className="w-full bg-transparent border-b border-outline-variant py-2 focus:border-brand-primary outline-none" placeholder="john@example.com" />
+          <input type="email" className="w-full bg-transparent border-b border-outline-variant py-2 focus:border-brand-primary outline-none" placeholder="example@example.com" />
         </div>
       </div>
       <div className="space-y-2">
@@ -385,7 +380,6 @@ const Footer = () => (
             <li>SEO Strategy</li>
             <li>Web Development</li>
             <li>UI/UX Design</li>
-            <li>Digital Consulting</li>
           </ul>
         </div>
         <div className="space-y-4">
@@ -393,7 +387,6 @@ const Footer = () => (
           <ul className="text-on-surface-variant space-y-2 text-sm">
             <li>LinkedIn</li>
             <li>Instagram</li>
-            <li>Dribbble</li>
             <li>GitHub</li>
           </ul>
         </div>
